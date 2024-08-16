@@ -1,8 +1,12 @@
 class If {
   public static void main(String[] args) {
-    float temperature = 82.0f;
+    int temperature = -5;
     if (temperature > 0) {
       System.out.println("Temperature is positive.");
+    } else if (temperature == 0) {
+      System.out.println("Temperature is 0.");
+    } else {
+      System.out.println("Temperature is negative.");
     }
   }
 }
